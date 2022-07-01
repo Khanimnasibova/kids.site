@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 6vh;
+    background: rgb(47, 69, 131);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li, ul, li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+}
+.left-section{
+    margin-right: 1840px;
+    position: absolute;
+
+}
+.right-section{
+    
+    margin-left: 900px;
+    
+}
+a{
+    padding: 15px;
+}
+.right-main{
+    position: absolute;
+}
+.right-main h2{
+    font-size: 60px;
+    color: rgb(47, 69, 131);
+    padding-top: 140px;
+    margin-left: 330px;
+}
+.left-main img{
+    width: 100%;
+}
+ul li ul{
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+}
+ul li:hover > ul,
+ul li ul:hover{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    text-align: left;
+    position: absolute;
+    background: rgb(47, 69, 131);
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+ul li ul a:hover{
+    color: #efb963;
+    padding-left: 17px;
+}
+ul li ul li{
+    padding: 8px 0;
+    
+}
+.home:hover{
+    background: #fff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+.home a:hover{
+    color: rgb(47, 69, 131);
+   
+}
+p{
+   position: absolute;    
+    margin-left: 319px;  
+    top: 75%;
+    background: rgb(47, 69, 131);
+    color: #efb963;
+    font-size: 60px;
+    
+}
+p:hover{
+    background: transparent;
+    cursor: pointer; 
+    color: transparent;
+}
+p:hover:before{
+    content: "FRIENDS";
+    font-size: 60px;
+    color: rgb(47, 69, 131);  
+}
